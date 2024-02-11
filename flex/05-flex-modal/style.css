@@ -16,13 +16,38 @@ body {
 }
 
 .modal {
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+}
+
 .icon {
+  flex-shrink: 0;
+
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
